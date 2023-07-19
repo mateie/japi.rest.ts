@@ -1,5 +1,5 @@
 import JAPIRest from "..";
-import { ImageSize, JAPIDiscordUser } from "../@types";
+import { ImageSize, JAPIDiscordUser } from "../../typings";
 
 export default class JAPIDiscord {
     private readonly base: JAPIRest;

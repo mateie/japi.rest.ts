@@ -2,6 +2,7 @@ src
 tsconfig.json
 .eslintignore
 .eslintrc.json
+.prettierignore
 .gitignore
 .prettierrc
 nodemon.json

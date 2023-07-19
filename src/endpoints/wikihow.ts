@@ -1,5 +1,5 @@
 import JAPIRest from "..";
-import { JAPIWikihowArticle, JAPIWikihowSearch } from "../@types";
+import { JAPIWikihowArticle, JAPIWikihowSearch } from "../../typings";
 
 export default class JAPIWikiHow {
     private readonly base: JAPIRest;
