@@ -13,11 +13,11 @@
     "noImplicitAny": true,
     "resolveJsonModule": true,
     "declaration": true,
-    "experimentalDecorators": true,
+    "experimentalDecorators": true
   },
   "include": [
     "src/**/*",
-    "typings/**/*"
+    "src/@types/**/*"
   ],
   "exclude": [
     "node_modules",
