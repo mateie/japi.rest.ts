@@ -1,5 +1,5 @@
 import JAPIRest from "..";
-import { JAPIWikihowArticle, JAPIWikihowSearch } from "../../typings";
+import { JAPIWikihowArticle, JAPIWikihowSearch } from "japi.rest.ts";
 
 export default class JAPIWikiHow {
     private readonly base: JAPIRest;

@@ -1,17 +1,15 @@
 import JAPIRest from "..";
-import { ImageSize, JAPIDiscordUser } from "../../typings";
+import { ImageSize, JAPIDiscordUser } from "japi.rest.ts";
 
 export default class JAPIDiscord {
     private readonly base: JAPIRest;
     private readonly url: string;
     private readonly userUrl: string;
-    private readonly guildUrl: string;
 
     constructor(base: JAPIRest) {
         this.base = base;
         this.url = `${this.base.baseUrl}/discord/v1`;
         this.userUrl = `${this.url}/user`;
-        this.guildUrl = `${this.url}/guild`;
     }
 
     async getUser(userId: string): Promise<JAPIDiscordUser> {

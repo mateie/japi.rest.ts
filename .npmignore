@@ -8,3 +8,6 @@ tsconfig.json
 nodemon.json
 tsconfig.json
 .idea
+
+build/test.d.ts
+build/test.js
